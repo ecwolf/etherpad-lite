@@ -90,7 +90,7 @@ function Ace2Inner() {
 
   let outsideKeyDown = noop;
 
-  let outsideKeyPress = function () { return true; };
+  let outsideKeyPress = function (e) { return true; };
 
   let outsideNotifyDirty = noop;
 
